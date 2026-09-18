@@ -1,4 +1,4 @@
-# <div align="center">🛡️ MedShield</div>
+# <div align="center">MedShield</div>
 
 <div align="center">
 
@@ -7,7 +7,7 @@
 [![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io)
 [![License](https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge)](LICENSE)
-[![Tests](https://img.shields.io/badge/Tests-21%2F21_Passing-4ECDC4?style=for-the-badge&logo=pytest&logoColor=white)](#-running-tests)
+[![Tests](https://img.shields.io/badge/Tests-21%2F21_Passing-4ECDC4?style=for-the-badge&logo=pytest&logoColor=white)](#running-tests)
 
 <br/>
 
@@ -15,7 +15,7 @@
 
 <br/>
 
-🔒 **100% Local Processing** · 🚀 **Instant Redaction** · 📄 **TXT · CSV · PDF Support** · 🎨 **Beautiful Dark UI**
+**100% Local Processing** · **Instant Redaction** · **TXT, CSV, PDF Support** · **Beautiful Dark UI**
 
 </div>
 
@@ -23,20 +23,20 @@
 
 <br/>
 
-## 📋 Table of Contents
+## Table of Contents
 
-- [✨ Features](#-features)
-- [🔍 What Does MedShield Detect?](#-what-does-medshield-detect)
-- [🚀 Quick Start](#-quick-start)
-- [📁 Project Structure](#-project-structure)
-- [📖 File Descriptions](#-file-descriptions)
-- [🔧 How It Works](#-how-it-works)
-- [📊 Sample Output](#-sample-output)
-- [🧪 Running Tests](#-running-tests)
-- [🎨 UI Design](#-ui-design)
-- [⚠️ Privacy & Disclaimer](#️-privacy--disclaimer)
-- [🤝 Contributing](#-contributing)
-- [📄 License](#-license)
+- [Features](#features)
+- [What Does MedShield Detect?](#what-does-medshield-detect)
+- [Quick Start](#quick-start)
+- [Project Structure](#project-structure)
+- [File Descriptions](#file-descriptions)
+- [How It Works](#how-it-works)
+- [Sample Output](#sample-output)
+- [Running Tests](#running-tests)
+- [UI Design](#ui-design)
+- [Privacy and Disclaimer](#privacy-and-disclaimer)
+- [Contributing](#contributing)
+- [License](#license)
 
 <br/>
 
@@ -44,20 +44,20 @@
 
 <br/>
 
-## ✨ Features
+## Features
 
 | Feature | Description |
 |---------|-------------|
-| 🔒 **100% Local Processing** | All files are processed entirely on your machine. No data ever leaves your computer — no cloud uploads, no external APIs, no tracking. |
-| 📄 **Multi-Format Support** | Upload and process **TXT**, **CSV**, and **PDF** files. MedShield intelligently extracts text from each format. |
-| 🛡️ **Smart PII Detection** | Automatically detects **12+ types** of sensitive information using carefully crafted regex patterns — from Aadhaar numbers to patient names. |
-| 🔍 **Side-by-Side Comparison** | View the original document and the protected version side-by-side, so you can verify exactly what was redacted. |
-| 📊 **Redaction Summary** | Get a detailed breakdown of how many items were redacted and which categories were detected, displayed in beautiful stat cards. |
-| ⬇️ **One-Click Download** | Download the protected file instantly with a single click. The redacted file is named clearly (e.g., `REDACTED_report.txt`). |
-| 📋 **Sample Documents** | Three realistic fictional medical documents are included so you can try MedShield immediately — no file prep needed. |
-| 🎨 **Premium Dark UI** | A stunning glassmorphism interface with animated gradients, floating cards, pulse effects, and smooth hover transitions. |
-| ♿ **Accessible Design** | Readable fonts (Inter), clear buttons, useful labels, and keyboard-friendly navigation throughout the interface. |
-| 🧪 **Fully Tested** | 21 unit tests covering all redaction patterns, file processors, and edge cases — all passing. |
+| **100% Local Processing** | All files are processed entirely on your machine. No data ever leaves your computer — no cloud uploads, no external APIs, no tracking. |
+| **Multi-Format Support** | Upload and process **TXT**, **CSV**, and **PDF** files. MedShield intelligently extracts text from each format. |
+| **Smart PII Detection** | Automatically detects **12+ types** of sensitive information using carefully crafted regex patterns — from Aadhaar numbers to patient names. |
+| **Side-by-Side Comparison** | View the original document and the protected version side-by-side, so you can verify exactly what was redacted. |
+| **Redaction Summary** | Get a detailed breakdown of how many items were redacted and which categories were detected, displayed in beautiful stat cards. |
+| **One-Click Download** | Download the protected file instantly with a single click. The redacted file is named clearly (e.g., `REDACTED_report.txt`). |
+| **Sample Documents** | Three realistic fictional medical documents are included so you can try MedShield immediately — no file prep needed. |
+| **Premium Dark UI** | A stunning glassmorphism interface with animated gradients, floating cards, pulse effects, and smooth hover transitions. |
+| **Accessible Design** | Readable fonts (Inter), clear buttons, useful labels, and keyboard-friendly navigation throughout the interface. |
+| **Fully Tested** | 21 unit tests covering all redaction patterns, file processors, and edge cases — all passing. |
 
 <br/>
 
@@ -65,7 +65,7 @@
 
 <br/>
 
-## 🔍 What Does MedShield Detect?
+## What Does MedShield Detect?
 
 MedShield scans for **12 types** of personally identifiable information using carefully designed regex patterns. Each detected item is replaced with a clear label while preserving medically useful information.
 
@@ -84,7 +84,7 @@ MedShield scans for **12 types** of personally identifiable information using ca
 | 11 | **SSN-like IDs** | `[SSN REDACTED]` | `123-45-6789` | `[SSN REDACTED]` |
 | 12 | **General Dates** | `[DATE REDACTED]` | `March 15, 2024` | `[DATE REDACTED]` |
 
-> 💡 **Note:** Medical terminology, diagnoses, medication names, lab values, and treatment details are **preserved** — only personally identifiable information is redacted.
+> **Note:** Medical terminology, diagnoses, medication names, lab values, and treatment details are **preserved** — only personally identifiable information is redacted.
 
 <br/>
 
@@ -92,7 +92,7 @@ MedShield scans for **12 types** of personally identifiable information using ca
 
 <br/>
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -136,7 +136,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-### 🎉 That's it!
+### That's it!
 
 MedShield will open in your browser at **http://localhost:8501**. You can try it immediately by clicking one of the sample document buttons.
 
@@ -146,31 +146,32 @@ MedShield will open in your browser at **http://localhost:8501**. You can try it
 
 <br/>
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 MedShield/
 │
-├── 🎨 app.py                          # Streamlit web interface (premium dark UI)
-├── 🔒 redactor.py                     # PII detection & redaction engine (regex)
-├── 📄 file_processor.py               # File reading: TXT, CSV, PDF
+├── app.py                              # Streamlit web interface (premium dark UI)
+├── redactor.py                         # PII detection & redaction engine (regex)
+├── file_processor.py                   # File reading: TXT, CSV, PDF
 │
-├── 📋 sample_documents/               # Fictional sample files for testing
-│   ├── sample_medical_report.txt      #   → Hospital discharge summary
-│   ├── sample_patient_records.csv     #   → 5-patient CSV dataset
-│   └── sample_lab_report.txt          #   → CBC blood test report
+├── sample_documents/                   # Fictional sample files for testing
+│   ├── sample_medical_report.txt       #   Hospital discharge summary
+│   ├── sample_patient_records.csv      #   5-patient CSV dataset
+│   └── sample_lab_report.txt           #   CBC blood test report
 │
-├── 🧪 tests/                          # Unit tests (21 tests, all passing)
+├── tests/                              # Unit tests (21 tests, all passing)
 │   ├── __init__.py
-│   ├── test_redactor.py               #   → 15 redactor tests
-│   └── test_file_processor.py         #   → 6 file processor tests
+│   ├── test_redactor.py                #   15 redactor tests
+│   └── test_file_processor.py          #   6 file processor tests
 │
-├── ⚙️ .streamlit/
-│   └── config.toml                    # Streamlit theme & server configuration
+├── .streamlit/
+│   └── config.toml                     # Streamlit theme & server configuration
 │
-├── 📦 requirements.txt                # Python dependencies
-├── 📖 README.md                       # This file
-└── 🚫 .gitignore                      # Git ignore rules
+├── requirements.txt                    # Python dependencies
+├── README.md                           # This file
+├── LICENSE                             # MIT License
+└── .gitignore                          # Git ignore rules
 ```
 
 <br/>
@@ -179,7 +180,7 @@ MedShield/
 
 <br/>
 
-## 📖 File Descriptions
+## File Descriptions
 
 ### `app.py` — The Web Interface
 The main entry point of the application. Built with **Streamlit**, it provides a stunning glassmorphism dark-mode UI with:
@@ -204,7 +205,7 @@ The core intelligence of MedShield. Contains:
 ### `file_processor.py` — The File Reader
 Handles reading and parsing of uploaded files:
 - **`validate_file()`** — checks file type (`.txt`, `.csv`, `.pdf`) and size (max 10 MB)
-- **`read_txt()`** — decodes text with UTF-8 → Latin-1 fallback
+- **`read_txt()`** — decodes text with UTF-8 to Latin-1 fallback
 - **`read_csv()`** — parses CSV and formats rows with pipe separators for readability
 - **`read_pdf()`** — uses PyMuPDF (fitz) to extract text from all pages with page markers
 - **`process_file()`** — main entry point that routes to the correct reader
@@ -229,17 +230,17 @@ Three realistic but **entirely fictional** medical documents:
 
 <br/>
 
-## 🔧 How It Works
+## How It Works
 
 ```
 ┌─────────────────┐     ┌──────────────────┐     ┌─────────────────┐
-│  📤 Upload File  │ ──→ │  📄 Extract Text  │ ──→ │  🔍 Scan for PII │
+│  Upload File     │ --> │  Extract Text     │ --> │  Scan for PII    │
 │  (TXT/CSV/PDF)  │     │  (file_processor) │     │    (redactor)    │
 └─────────────────┘     └──────────────────┘     └────────┬────────┘
                                                           │
-                                                          ▼
+                                                          v
 ┌─────────────────┐     ┌──────────────────┐     ┌─────────────────┐
-│  ⬇️ Download     │ ←── │  📊 Show Summary  │ ←── │  🛡️ Replace PII  │
+│  Download        │ <-- │  Show Summary     │ <-- │  Replace PII     │
 │  Protected File │     │  & Comparison    │     │  with Labels    │
 └─────────────────┘     └──────────────────┘     └─────────────────┘
 ```
@@ -259,7 +260,7 @@ Three realistic but **entirely fictional** medical documents:
 
 <br/>
 
-## 📊 Sample Output
+## Sample Output
 
 ### Before (Original Document)
 ```
@@ -291,7 +292,7 @@ Attending Physician: Dr. [NAME REDACTED]
 Diagnosis: Type 2 Diabetes Mellitus with Hypertension
 ```
 
-> ✅ Notice how the **diagnosis** and **medical information** are preserved while all **personally identifiable information** is redacted.
+> Notice how the **diagnosis** and **medical information** are preserved while all **personally identifiable information** is redacted.
 
 <br/>
 
@@ -299,7 +300,7 @@ Diagnosis: Type 2 Diabetes Mellitus with Hypertension
 
 <br/>
 
-## 🧪 Running Tests
+## Running Tests
 
 MedShield includes a comprehensive test suite with **21 tests** covering all functionality.
 
@@ -347,21 +348,21 @@ tests/test_redactor.py::test_get_supported_patterns           PASSED  [100%]
 
 <br/>
 
-## 🎨 UI Design
+## UI Design
 
 MedShield features a **premium dark-mode glassmorphism UI** designed to be visually stunning and functionally intuitive.
 
 ### Design Highlights
 
-- **🌌 Dark Gradient Background** — Deep blue-to-purple gradient (`#0a0a1a` → `#1a1033`)
-- **✨ Animated Title** — Gradient text that shifts through purple, teal, and lavender
-- **💫 Pulsing Shield Icon** — Gentle glow animation on the shield emoji
-- **🪟 Glassmorphic Cards** — Semi-transparent backgrounds with blur backdrop and subtle borders
-- **🎯 Gradient Buttons** — Purple-to-teal gradient with hover lift and glow effects
-- **📊 Stat Cards** — Floating cards with per-category icons (📱 Phone, 📧 Email, 🪪 Aadhaar, etc.)
-- **🔴🟢 Comparison Panels** — Red-tinted original vs green-tinted protected document views
-- **📝 Inter Font** — Google's Inter typeface for crisp, modern typography
-- **🖱️ Micro-Animations** — Hover lift effects, smooth transitions, and fade-in animations
+- **Dark Gradient Background** — Deep blue-to-purple gradient (#0a0a1a to #1a1033)
+- **Animated Title** — Gradient text that shifts through purple, teal, and lavender
+- **Pulsing Shield Icon** — Gentle glow animation on the shield icon
+- **Glassmorphic Cards** — Semi-transparent backgrounds with blur backdrop and subtle borders
+- **Gradient Buttons** — Purple-to-teal gradient with hover lift and glow effects
+- **Stat Cards** — Floating cards with per-category icons for each PII type
+- **Comparison Panels** — Red-tinted original vs green-tinted protected document views
+- **Inter Font** — Google's Inter typeface for crisp, modern typography
+- **Micro-Animations** — Hover lift effects, smooth transitions, and fade-in animations
 
 ### Tech Stack
 
@@ -380,9 +381,9 @@ MedShield features a **premium dark-mode glassmorphism UI** designed to be visua
 
 <br/>
 
-## ⚠️ Privacy & Disclaimer
+## Privacy and Disclaimer
 
-### 🔒 Privacy Notice
+### Privacy Notice
 
 MedShield processes all files **locally on your machine**. No data is uploaded to external servers, cloud services, or third-party APIs. Your medical documents never leave your computer.
 
@@ -391,14 +392,14 @@ However:
 - **Do not use MedShield** as the sole method of protecting sensitive information
 - **Always verify** redactions manually before sharing protected documents
 
-### ⚖️ Disclaimer
+### Disclaimer
 
 MedShield is a **document-redaction tool** designed to assist with privacy protection. It is **NOT**:
 
-- ❌ A guarantee of legal compliance (HIPAA, GDPR, DISHA, etc.)
-- ❌ A medical diagnosis or treatment tool
-- ❌ A substitute for professional legal or medical advice
-- ❌ A certified data anonymization solution
+- A guarantee of legal compliance (HIPAA, GDPR, DISHA, etc.)
+- A medical diagnosis or treatment tool
+- A substitute for professional legal or medical advice
+- A certified data anonymization solution
 
 MedShield uses regex-based pattern matching, which may not catch all forms of sensitive information. **Always review redacted documents** before sharing them.
 
@@ -408,7 +409,7 @@ MedShield uses regex-based pattern matching, which may not catch all forms of se
 
 <br/>
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Here's how you can help:
 
@@ -420,12 +421,12 @@ Contributions are welcome! Here's how you can help:
 
 ### Ideas for Contributions
 
-- 🌐 Add more language support for PII patterns (Hindi, Tamil, etc.)
-- 📝 Support for DOCX files
-- 🧠 Optional NLP-based name detection
-- 📱 Mobile-responsive UI improvements
-- 🌍 Internationalization (i18n) support
-- 📋 Batch file processing
+- Add more language support for PII patterns (Hindi, Tamil, etc.)
+- Support for DOCX files
+- Optional NLP-based name detection
+- Mobile-responsive UI improvements
+- Internationalization (i18n) support
+- Batch file processing
 
 <br/>
 
@@ -433,7 +434,7 @@ Contributions are welcome! Here's how you can help:
 
 <br/>
 
-## 📄 License
+## License
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
@@ -443,10 +444,10 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 <div align="center">
 
-**Built with ❤️ by [Brunda G](https://github.com/brunda-coder) for healthcare privacy**
+**Built with care by [Brunda G](https://github.com/brunda-coder) for healthcare privacy**
 
 <br/>
 
-🛡️ *Protecting what matters most — your personal information.*
+*Protecting what matters most — your personal information.*
 
 </div>
