@@ -1,0 +1,78 @@
+[This is a fictional sample document for testing MedShield. All information is entirely made up.]
+
+================================================================================
+                           SUNRISE GENERAL HOSPITAL
+                        Discharge Summary & Patient Record
+================================================================================
+
+PATIENT DEMOGRAPHICS
+--------------------------------------------------------------------------------
+Patient Name: Arjun Mehta
+Age/Gender: 45 years / Male
+DOB: 15/03/1981
+Phone: +91-98765-43210
+Email: arjun.mehta@email.com
+Address: 42, Rajaji Nagar, 3rd Block, Bangalore, Karnataka - 560010
+Aadhaar No: 2345 6789 0123
+
+MEDICAL RECORD DETAILS
+--------------------------------------------------------------------------------
+MRN: MR-2024-00789
+Insurance ID: INS-KA-20240156
+Attending Physician: Dr. Priya Sharma
+Admission Date: 05/09/2024
+Discharge Date: 12/09/2024
+Diagnosis: Type 2 Diabetes Mellitus with Hypertension
+
+CLINICAL SUMMARY
+--------------------------------------------------------------------------------
+Chief Complaint:
+Patient presented to the emergency department with complaints of persistent
+dizziness, fatigue, increased thirst, and frequent urination over the past week.
+Reported blurred vision on two occasions prior to admission.
+
+History of Present Illness:
+Mr. Mehta is a 45-year-old male who was generally well until approximately
+three months ago when he began noticing gradual onset of fatigue and polyuria.
+He ignored these symptoms until the dizziness became prominent. Denies chest
+pain, shortness of breath, or abdominal pain.
+
+Past Medical History:
+- No prior hospitalizations
+- Borderline hypertension noted during routine checkups in 2022
+- No known drug allergies
+
+HOSPITAL COURSE
+--------------------------------------------------------------------------------
+Upon admission, patient's blood pressure was 160/95 mmHg, and random blood
+glucose was 320 mg/dL. HbA1c returned at 9.4%. Patient was stabilized with
+intravenous fluids and insulin therapy. Blood pressure was managed with
+antihypertensive medication. Over the course of the hospital stay, blood sugars
+were brought under control and transitioned to an oral hypoglycemic regimen.
+Patient responded well to the treatment and remained hemodynamically stable.
+
+DISCHARGE PLAN
+--------------------------------------------------------------------------------
+Medications Prescribed:
+1. Metformin 500mg - 1 tablet twice daily with meals
+2. Amlodipine 5mg - 1 tablet once daily in the morning
+3. Atorvastatin 20mg - 1 tablet once daily at bedtime
+
+Discharge Instructions:
+- Strict adherence to a diabetic diet as discussed with the dietitian.
+- Monitor blood pressure and fasting blood sugar daily; maintain a logbook.
+- Engage in at least 30 minutes of moderate aerobic exercise daily.
+- Avoid smoking and limit alcohol intake.
+- Seek immediate medical attention in case of chest pain, severe dizziness,
+  hypoglycemia symptoms, or shortness of breath.
+
+Follow-up Appointments:
+- Dr. Priya Sharma (Endocrinology) on 19/09/2024 at 10:00 AM
+- Dietitian Consultation on 20/09/2024 at 11:30 AM
+
+--------------------------------------------------------------------------------
+Electronically signed by:
+Dr. Priya Sharma, MD (Internal Medicine)
+Sunrise General Hospital
+Date: 12/09/2024
+================================================================================

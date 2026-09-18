@@ -1,0 +1,6 @@
+Patient_Name,Age,Gender,Phone,Email,DOB,Aadhaar_Number,MRN,Diagnosis,Medication,Doctor
+Arjun Mehta,45,Male,+91-98765-43210,arjun.mehta@email.com,15/03/1981,2345 6789 0123,MR-2024-00789,Type 2 Diabetes,Metformin 500mg,Dr. Priya Sharma
+Sneha Reddy,28,Female,+91-87654-32109,sneha.r@email.com,22/07/1995,9876 5432 1098,MR-2024-01234,Iron Deficiency Anemia,Ferrous Sulfate 325mg,Dr. Vikram Patel
+Rahul Deshmukh,62,Male,+91-76543-21098,rahul.d@email.com,03/11/1963,5678 9012 3456,MR-2024-02345,Coronary Artery Disease,Aspirin 75mg,Dr. Meera Joshi
+Ananya Krishnan,35,Female,+91-65432-10987,ananya.k@email.com,18/05/1991,3456 7890 1234,MR-2024-03456,Hypothyroidism,Levothyroxine 50mcg,Dr. Suresh Nair
+Kamal Singh,55,Male,+91-54321-09876,kamal.s@email.com,29/01/1971,7890 1234 5678,MR-2024-04567,Chronic Kidney Disease,Telmisartan 40mg,Dr. Amita Gupta

@@ -1,0 +1,58 @@
+[This is a fictional sample document for testing MedShield. All information is entirely made up.]
+
+================================================================================
+                           SUNRISE DIAGNOSTICS LAB
+                            Laboratory Test Report
+================================================================================
+
+PATIENT DETAILS
+--------------------------------------------------------------------------------
+Patient Name: Sneha Reddy
+Age/Gender: 28 years / Female
+DOB: 22/07/1995
+Phone: 080-2345-6789
+Email: sneha.r@email.com
+Address: 15, Koramangala, 5th Block, Bangalore - 560095
+Aadhaar No: 9876 5432 1098
+
+CLINICAL INFORMATION
+--------------------------------------------------------------------------------
+MRN: MR-2024-01234
+Referring Doctor: Dr. Vikram Patel
+Sample Collection Date: 10/09/2024 08:15 AM
+Report Date: 11/09/2024 10:30 AM
+
+================================================================================
+TEST DESCRIPTION                RESULT           REFERENCE RANGE      STATUS
+================================================================================
+
+COMPLETE BLOOD COUNT (CBC)
+--------------------------------------------------------------------------------
+Hemoglobin                      10.2 g/dL        12.0 - 16.0          * LOW *
+RBC Count                       3.8 million/mcL  4.2 - 5.4            * LOW *
+WBC Count                       7,500 /mcL       4,500 - 11,000       NORMAL
+Platelet Count                  250,000 /mcL     150,000 - 400,000    NORMAL
+
+BLOOD CHEMISTRY
+--------------------------------------------------------------------------------
+Fasting Blood Sugar             92 mg/dL         70 - 100             NORMAL
+Total Cholesterol               185 mg/dL        <200                 NORMAL
+
+IRON STUDIES
+--------------------------------------------------------------------------------
+Serum Iron                      35 mcg/dL        60 - 170             * LOW *
+TIBC                            450 mcg/dL       250 - 370            * HIGH *
+Serum Ferritin                  8 ng/mL          12 - 150             * LOW *
+
+================================================================================
+INTERPRETATION:
+Results are consistent with Iron Deficiency Anemia. Clinical correlation is 
+advised. Please consult the referring physician for further evaluation and 
+management.
+
+--------------------------------------------------------------------------------
+Verified by:
+Dr. R. K. Sharma, MD (Pathology)
+Sunrise Diagnostics Lab
+Date: 11/09/2024
+================================================================================
